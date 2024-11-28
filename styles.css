@@ -1,0 +1,50 @@
+/*змінні класи в root і паралельно в місці кольору var з назвою кольору*/
+:root {
+    --color-brand: #819b81; 
+    --color-brand-primary: #819b81;
+    --color-brand-secondary: #faf4ea;
+    --color-brand-dark: #31261A;}
+
+/*Base добре підписувати блоки для зручної навігації*/
+body {
+    color: var(--color-brand-dark);
+}
+ul {
+    list-style-type: none;}
+h1 {
+    color: tomato;}
+h2 {color:brown}
+
+/*Button*/
+.button {
+    color: #faf4ea;
+    background-color: var(--color-brand);
+    border: 2px solid #819B57;
+    border-radius: 8px;}
+.button:hover {
+    color: #1a1816;
+    background-color: transparent;}
+.button:active {
+    color: #faf4ea;
+    background-color:tomato;
+    border: 2px solid rgb(238, 80, 52);}
+
+    /*Link*/
+.link {
+    color: #faf4ea;}
+.link:hover {
+    color: #819857;}
+
+.hero-title {
+    color: #faf4ea;}
+.hero-title span {
+    color: #819857;}
+
+.advantages-list {
+    color: #faf4ea;
+    background-color: #819857;}
+
+.section-title {
+    color: #31261A;}
+.section-title span {
+    color: #819857;}
